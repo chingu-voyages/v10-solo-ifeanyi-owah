@@ -7,9 +7,11 @@
     
 
     .Menu-item {
-        border: 1px solid gray;
+        // border: 1px solid gray;
         display: grid;
         grid-template-columns: 1fr;
+        background-position: center;
+        background-size: cover;
 
         .content {
             border: 1px solid gray;
@@ -25,12 +27,12 @@
         width: 700px;
     }
 
-    .Menu-adults{
-        grid-column: 1/4;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap:30px;
-    }
+    // .Menu-adults{
+    //     grid-column: 1/4;
+    //     display:grid;
+    //     grid-template-columns: 1fr 1fr;
+    //     grid-column-gap:30px;
+    // }
 
     // div:nth-child(5) {
     // //    grid-area: footer
